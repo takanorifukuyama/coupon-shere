@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from 'react';
 
 import './App.css';
-import Header from './components/Header';
+import ButtonAppBar from './components/AppBar';
 import CouponList from './components/CouponList';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
+        <ButtonAppBar />
         <CouponList />
       </Fragment>
     );
