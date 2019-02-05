@@ -11,6 +11,10 @@ class App extends Component {
       <Fragment>
         <ButtonAppBar />
         <MediaCard />
+        <MediaCard />
+        <MediaCard />
+        <MediaCard />
+
         {/* <CouponList /> */}
       </Fragment>
     );
