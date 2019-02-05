@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <Fragment>
         <ButtonAppBar />
+        <div style={{height:50}}></div>
         <MediaCard />
         <MediaCard />
         <MediaCard />
