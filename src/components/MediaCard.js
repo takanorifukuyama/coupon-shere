@@ -39,10 +39,10 @@ function MediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Coupon 
+            {props.shop}
           </Typography>
           <Typography component="p">
-            ここにお店の詳細が表示されるよ。
+            {props.coupon}
             across all continents except Antarctica
           </Typography>
         </CardContent>

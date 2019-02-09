@@ -1,13 +1,20 @@
-import React,{ Component, Fragment } from 'react';
+import React from 'react';
 
-class Top extends Component {
-    render(){
-        return(
-            <Fragment>
+import MediaCard from "./MediaCard";
 
-            </Fragment>
-        );
-    }
-}
+const items = [
+    { name: 'AAA', color: 'black' },
+    { name: 'BBB', color: 'blue' },
+    { name: 'CCC', color: 'orange' },
+    { name: 'DDD', color: 'green' },
+  ];
+  
+  const Top = () => (
+    <div>
+      {items.map((it,index) => (
+      <MediaCard key={index} shop={it.name} coupon={it.color} />
+    ))}
+    </div>
+  );
 
 export default Top;

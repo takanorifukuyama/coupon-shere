@@ -4,7 +4,7 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import ButtonAppBar from './components/AppBar';
 // import CouponList from './components/CouponList';
-import MediaCard from './components/MediaCard';
+import Top from './components/Top';
 import SimpleCard from './components/SimpleCard';
 // import {  } from '@material-ui/core';
 
@@ -16,7 +16,7 @@ class App extends Component {
         <div style={{height:50}}></div>
         <BrowserRouter>
           <Switch>
-            <Route exact path={'/'} component={MediaCard} />
+            <Route exact path={'/'} component={Top} />
             <Route path={'/about'} component={SimpleCard} />
           </Switch>
         </BrowserRouter>
